@@ -1,0 +1,84 @@
+h1, h2,h3,p,li,a {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Videotype';
+  }
+
+  @font-face {
+    font-family: 'Videotype';
+    src: url(resources/font/videotype/videotype.ttf);
+  }
+
+  body {
+    background-color: #c0b8b6;
+  }
+
+  video, img {
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .LoremIpsum {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 2rem 0;
+    padding: 50px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+  }
+  
+  .footer-text {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    margin: 0 1rem;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .social-icons a:hover {
+    color: #f2f2f2;
+  }
+  
+  .fa-instagram:before {
+    content: "\f16d";
+  }
+  
+  .fa-behance:before {
+    content: "\f1b4";
+  }
+
+  ul {
+    list-style: none;
+    margin: 2rem 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
